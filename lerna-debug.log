@@ -1,0 +1,44 @@
+0 silly input [ 'start' ]
+1 silly flags {
+1 silly flags   _: [ 'run' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   stream: true,
+1 silly flags   scope: 'xod-client-electron',
+1 silly flags   script: 'start',
+1 silly flags   args: []
+1 silly flags }
+2 verbose rootPath /Users/justin/Documents/xod
+3 info version 2.11.0
+4 silly existsSync /Users/justin/Documents/xod/VERSION
+5 info scope xod-client-electron
+6 silly initialize attempt
+7 silly initialize success
+8 silly execute attempt
+9 silly runScriptInPackageStreaming [ 'start', [], 'xod-client-electron' ]
+10 silly getExecOpts { cwd: '/Users/justin/Documents/xod/packages/xod-client-electron' }
+11 error execute callback with error
+12 error Error: Command failed: yarn run start
+12 error /Users/justin/Documents/xod/node_modules/electron/index.js:14
+12 error     throw new Error('Electron failed to install correctly, please delete node_modules/electron and try installing again')
+12 error     ^
+12 error
+12 error Error: Electron failed to install correctly, please delete node_modules/electron and try installing again
+12 error     at getElectronPath (/Users/justin/Documents/xod/node_modules/electron/index.js:14:11)
+12 error     at Object.<anonymous> (/Users/justin/Documents/xod/node_modules/electron/index.js:18:18)
+12 error     at Module._compile (node:internal/modules/cjs/loader:1688:14)
+12 error     at Object..js (node:internal/modules/cjs/loader:1820:10)
+12 error     at Module.load (node:internal/modules/cjs/loader:1423:32)
+12 error     at Function._load (node:internal/modules/cjs/loader:1246:12)
+12 error     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+12 error     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+12 error     at Module.require (node:internal/modules/cjs/loader:1445:12)
+12 error     at require (node:internal/modules/helpers:135:16)
+12 error
+12 error Node.js v22.18.0
+12 error error Command failed with exit code 1.
+12 error
+12 error $ electron .
+12 error info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+12 error
+12 error     at /Users/justin/Documents/xod/node_modules/lerna/node_modules/execa/index.js:236:11
